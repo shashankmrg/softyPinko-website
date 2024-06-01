@@ -1,0 +1,350 @@
+.header{
+    display: flex;
+    align-items: center;
+    border-radius: 200px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 60px 0px 20px;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    font-size: 23px;
+    font-family: sans-serif;
+    position: fixed;
+    margin-top: -288px;
+}
+.logo{
+    padding-right: 100px;
+}
+.words{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.main-center{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+}
+.softy{
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+}
+button{
+    border-radius: 40px;
+    background-color:rgb(240, 10, 121);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.banner{
+    background-image: url("banner.jpeg");
+    padding: 50px 50px 250px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-button{
+    text-align: center;
+    width: 50%;
+}
+.icon{
+    background-color:blueviolet;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.product-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    max-width: 300px;
+    text-align: center;
+    margin-top: -150px;
+    background-color: white;
+    box-shadow: 0 2px 48px 0 rgba(0,0,0,0.10);
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-item>p{
+    color: gray;
+}
+.icon:hover{
+    background-color:rgb(240, 10, 121) ;
+}
+.header-image{
+    width: 50%;
+}
+.header-image>p{
+    color: gray;
+}
+.icon-share{
+    display: flex;;
+    justify-content: space-between;
+    margin: 10% 20% 10% 30%;
+}
+.Bootstrap{
+    width: 50%;
+}
+.Bootstrap>p{
+    color: gray;
+}
+.header-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 20% 10% 23%;
+}
+.work-process{
+    background-image: url("work-process-bg.png");
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wp-discription{
+    width: 35%;
+}
+.wp-item{
+    background-color: white;
+    border: solid 5px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 30px;
+    width: 150px;
+    font-size: 23px;
+    margin: 10px;
+    box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.08);
+}
+.wp-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wp-item:hover{
+    margin-top: -10px;
+}
+.donec-tempus{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cras-maximus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.wp-container{
+    margin: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20%;
+    box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    height: 250px;
+}
+.wp-number{
+    border-radius: 100%;
+    height: 10%;
+    width: 15%;
+    background-color: lightgray;
+    padding: 10px;
+}
+.managing{
+    color: rgb(233, 20, 194);
+}
+.wp-direction{
+    display: flex;
+    align-items: center;
+}
+.Catherine{
+    margin-left: 20px;
+    text-align: left;
+}
+.Catherine:hover{
+    margin-left: 40px;
+}
+.wp-pricing{
+    text-align: center;
+    align-items: center;
+}
+.wp-dollar-1{
+    background-color: blueviolet;
+  
+    padding: 5px 70px 5px 70px;
+    border-radius: 20px;
+    color: white
+}
+.text-line{
+    text-decoration: line-through;
+}.wp-purchase{
+    background-color: blueviolet;
+}
+.GB-text{
+    color: gray;
+}
+.wp-dollar-2{
+    background-color: rgb(233, 20, 194);
+    padding: 5px 70px 5px 70px;
+    border-radius: 20px;
+    color: white;
+}
+.wp-dollar-3{
+    background-color: blueviolet;
+    padding: 5px 70px 5px 70px;
+    border-radius: 20px;
+    color: white
+}
+.whole-pricing{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.main-pricing{
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    width: 350px;
+    padding: 30px;
+}
+.wp-projects{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("fun-facts-bg (2).png");
+    padding: 30px;
+    color: white;
+    margin-top: 100px;
+}
+.wp-circle{
+    margin: 50px;
+}
+.main-entries{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 490px 0px 490px;
+    margin-top: 100px;
+}
+.wp-main-blog{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main-blog{
+    margin: 10px;
+    width: 350px;
+}
+.wp-maximum{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    margin-top: 50px;
+}
+input{
+    border-radius: 70px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    margin: 10px;
+    width: 35%;
+}
+input:focus, textarea:focus{
+    outline:solid 2px skyblue;
+}
+textarea{
+    color: gray;
+    padding: 10px 280px 50px 10px;
+    border-radius: 20px;
+    border-width: 3px;
+    width: 75%;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    resize: none;
+}
+.main-flex{
+    display: flex;
+    width: 100%;
+    padding: 20px 170px ;
+    color: gray;
+}
+.distribute{
+    width: 20%;
+    text-align: left;
+    align-items: center;
+}
+.wp-placeholder{
+    margin-left: 20px;
+    width: 70%;
+}
+.contact-details{
+    width: 100%;
+    display: flex;
+}
+.contact-details-headers{
+    color: black;
+}
+button:hover{
+    background-color:rgb(240, 10, 121) ;
+}
+.menu-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+    margin-top: 100px;
+}
+.menu-container{
+    margin: 10px;
+    background-color: white;
+    border: solid 2px ;
+    border-radius: 100%;
+    padding: 5px;
+    color: blueviolet;
+}
+.menu-flex{
+    border-bottom: solid 1px white;
+    padding: 10px;
+    width: 80%;
+}
+.wp-copyright{
+    color: white;
+    padding: 10px;
+}
+.number{
+    font-size: small;
+}
+.number>svg{
+    padding: 0px 5px;
+    margin-bottom: -2px;
+}
+
